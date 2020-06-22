@@ -6,6 +6,7 @@
     <style>
         body {
             padding: 0;
+            margin: 0;
             background-color: #444;
         }
 
@@ -28,9 +29,17 @@
             text-align: center;
             left: 0;
         }
+
+        div a {
+            color: white !important;
+        }
     </style>
 </head>
 <body>
+
+<div>
+    <a href="https://github.com/hoopeinniw/hoopeinniw" target="_blank">Github</a>
+</div>
 
 <img id="title" src="title.png" alt="國安法為香港撐腰" />
 
@@ -39,7 +48,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
 <script>
-    // 警告查看此代碼將會違反國安法，後果自負。
+    // 警告: 查看此代碼將會違反國安法，後果自負。
 
     var Engine = Matter.Engine,
         Render = Matter.Render,
